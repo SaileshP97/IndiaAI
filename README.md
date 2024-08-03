@@ -18,8 +18,9 @@
   - It helps to create a web based GUI mainly for ML task.
 
 #### Issue:
-1. The cosine similarity score was very poor.
-2. even the rows that didn't had any link with the Query was showing higher scores.
+1. The prompt was not enough to generate the desired output.
+2. LLM was not able to proper calculations.
+3. I approch was wrong because in some of the query I need to use "bond id" as a key to get common data from both the pdf files which was not possible in this approch.
 
 #### Alternative Approch:
 1. I also though of extracting the keywords like data, political party name, company name, bond number, etc.
