@@ -27,3 +27,7 @@
 1. I also though of extracting the keywords like data, political party name, company name, bond number, etc.
 2. And then used it to extract info directly from dataframe.
 3. After that I would have used this info as a prompt.
+
+## Run Code
+1. run run_pickle.py to extract data from pdf and embedd and store it in Pickle folder
+2. run main.py to launch the interface.
