@@ -1,0 +1,9 @@
+pandas
+pymupdf
+pdfplumber
+google-api-python-client
+google-generativeai
+gradio
+groq
+sentence-transformers
+scikit-learn
