@@ -29,5 +29,7 @@
 3. After that I would have used this info as a prompt.
 
 ## Run Code
-1. run run_pickle.py to extract data from pdf and embedd and store it in Pickle folder
-2. run main.py to launch the interface.
+1. Create a PDF file and insert the files in it.
+2. run run_pickle.py to extract data from pdf and embedd and store it in Pickle folder.
+3. The pickle files are already present in the file so you can skip the above line.
+3. run main.py to launch the interface.
