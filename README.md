@@ -19,8 +19,9 @@
 
 #### Issue:
 1. The prompt was not enough to generate the desired output.
-2. LLM was not able to proper calculations.
-3. I approch was wrong because in some of the query I need to use "bond id" as a key to get common data from both the pdf files which was not possible in this approch.
+2. LLM was not able to do proper calculations.
+3. My approch was wrong because in some of the query I need to use "bond id" as a key to get common data from both the pdf files which was not possible in this approch.
+4. Also I should have done additions of values directly in the code.
 
 #### Alternative Approch:
 1. I also though of extracting the keywords like data, political party name, company name, bond number, etc.
