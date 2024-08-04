@@ -81,8 +81,8 @@ def get_doc_for_prompt(prompt, purchase_table, redemption_table):
 
 def Model(prompt, _):
 
-    purchase_table = pd.read_pickle("purchase_table.pkl")
-    redemption_table = pd.read_pickle("redemption_table.pkl")
+    purchase_table = pd.read_pickle("Pickle/purchase_table.pkl")
+    redemption_table = pd.read_pickle("Pickle/redemption_table.pkl")
 
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
@@ -96,7 +96,7 @@ def Model(prompt, _):
 def run_interface(port):
 
     iface = gr.ChatInterface(fn=Model, title="Get Data")
-    iface.launch(share=False, server_port=port)
+    iface.launch(share=True, server_port=port)
     
 
 
